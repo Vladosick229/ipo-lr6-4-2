@@ -19,7 +19,7 @@ for i in range(height):#цикл for
 print("Матрица:")
 for row in matrix:#цикл for
     for numb in row:#цикл for
-        print( numb , end=" ")
+        print( f"{numb:4}" , end=" ")
     print()
 
 # Вычисление суммы всех элементов некратных 3
